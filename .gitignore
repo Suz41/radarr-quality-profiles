@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+venv/
+ENV/
+
+# OS / Editor artifacts
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/

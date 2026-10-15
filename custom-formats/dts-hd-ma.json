@@ -1,0 +1,15 @@
+{
+  "name": "DTS-HD MA",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "DTS-HD MA",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(?i)\\bDTS[ ._-]?HD[ ._-]?MA\\b"
+      }
+    }
+  ]
+}

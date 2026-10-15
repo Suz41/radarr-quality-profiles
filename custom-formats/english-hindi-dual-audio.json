@@ -1,0 +1,15 @@
+{
+  "name": "English + Hindi Dual Audio",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "English Hindi Dual Audio Regex",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(?i)(DUAL[ ._-]?AUDIO|MULTI[ ._-]?AUDIO|HIN[ ._-]?ENG|ENG[ ._-]?HIN|HINDI.*ENGLISH|ENGLISH.*HINDI)"
+      }
+    }
+  ]
+}

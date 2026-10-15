@@ -1,0 +1,150 @@
+{
+  "name": "1080p IMAX HDR Complete",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "IMAX",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(?i)\\bIMAX\\b"
+      }
+    },
+    {
+      "name": "HDR",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(?i)\\b(HDR|HDR10|HDR10\\+|HDR10PLUS|HDR10P)\\b"
+      }
+    },
+    {
+      "name": "Dolby Vision",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(?i)\\b(DV|DOVI|DOLBY[ ._-]?VISION)\\b"
+      }
+    },
+    {
+      "name": "Blu-ray Remux",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(?i)\\bREMUX\\b"
+      }
+    },
+    {
+      "name": "Blu-ray",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(?i)\\b(BLURAY|BLU[ ._-]?RAY|BDRIP|BRRIP)\\b"
+      }
+    },
+    {
+      "name": "WEB-DL",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(?i)\\bWEB[ ._-]?DL\\b"
+      }
+    },
+    {
+      "name": "WEBRip",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(?i)\\bWEB[ ._-]?RIP\\b"
+      }
+    },
+    {
+      "name": "HEVC H265",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(?i)\\b(HEVC|H[ ._-]?265|X265)\\b"
+      }
+    },
+    {
+      "name": "AVC H264",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(?i)\\b(AVC|H[ ._-]?264|X264)\\b"
+      }
+    },
+    {
+      "name": "English Hindi Dual Audio",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(?i)(DUAL[ ._-]?AUDIO|MULTI[ ._-]?AUDIO|HIN[ ._-]?ENG|ENG[ ._-]?HIN|HINDI.*ENGLISH|ENGLISH.*HINDI)"
+      }
+    },
+    {
+      "name": "Dolby Atmos",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(?i)\\bATMOS\\b"
+      }
+    },
+    {
+      "name": "DTS-HD MA",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(?i)\\bDTS[ ._-]?HD[ ._-]?MA\\b"
+      }
+    },
+    {
+      "name": "Proper Repack",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(?i)\\b(PROPER|REPACK|RERIP)\\b"
+      }
+    },
+    {
+      "name": "Low Quality Theatrical",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(?i)\\b(CAM|HDCAM|HDTS|TELESYNC|TELECINE|SCREENER|WORKPRINT)\\b"
+      }
+    },
+    {
+      "name": "3D",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(?i)\\b(3D|HSBS|HOU)\\b"
+      }
+    },
+    {
+      "name": "Remastered",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(?i)\\b(REMASTERED|REMASTER)\\b"
+      }
+    }
+  ]
+}

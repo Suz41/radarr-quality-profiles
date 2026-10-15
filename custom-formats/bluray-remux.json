@@ -1,0 +1,15 @@
+{
+  "name": "Blu-ray Remux",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "Blu-ray Remux",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(?i)\\bREMUX\\b"
+      }
+    }
+  ]
+}

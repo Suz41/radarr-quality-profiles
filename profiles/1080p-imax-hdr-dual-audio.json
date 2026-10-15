@@ -1,0 +1,42 @@
+{
+  "profile_name": "1080p IMAX HDR (English + Hindi)",
+  "type": "configuration-guide-not-direct-import",
+  "resolution_limit": "1080p maximum; do not enable any 2160p quality",
+  "quality_order_highest_to_lowest": [
+    "Bluray-1080p Remux",
+    "Bluray-1080p",
+    "WEBDL-1080p",
+    "WEBRip-1080p",
+    "Bluray-720p",
+    "WEBDL-720p",
+    "WEBRip-720p"
+  ],
+  "cutoff_quality": "Bluray-1080p",
+  "upgrades_allowed": true,
+  "custom_format_scores": {
+    "IMAX": 300,
+    "HDR": 200,
+    "HDR10+": 100,
+    "Blu-ray Remux": 250,
+    "WEB-DL": 100,
+    "HEVC / H.265": 40,
+    "English + Hindi Dual Audio": 300,
+    "Low Quality Release": -10000
+  },
+  "optional_format_scores": {
+    "Dolby Vision": 150,
+    "Dolby Atmos": 100,
+    "DTS-HD MA": 80,
+    "Proper / Repack": 50
+  },
+  "language_note": "Radarr's single preferred-language setting cannot guarantee English OR Hindi OR dual audio by itself. Use Original/English as the language preference if English is your default, and use the dual-audio Custom Format score as a preference. Confirm audio tracks after download.",
+  "important_notes": [
+    "This JSON is a setup reference, not a direct Radarr quality-profile import file.",
+    "Import each Custom Format JSON separately in Settings > Custom Formats > Import.",
+    "After importing, open Settings > Profiles, edit/create the profile, add each Custom Format and set the scores listed here.",
+    "In the profile, only enable 1080p and optionally 720p qualities; leave all 2160p/4K qualities disabled.",
+    "Set the cutoff to Bluray-1080p (or your preferred 1080p group) and enable upgrades.",
+    "Custom Format title matching is imperfect: HDR/IMAX/Dual Audio tags may be absent or inconsistently named in releases.",
+    "Do not use a negative score as a substitute for disabling 2160p qualities; disable 2160p directly."
+  ]
+}

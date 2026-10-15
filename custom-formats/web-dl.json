@@ -1,0 +1,15 @@
+{
+  "name": "WEB-DL",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "WEB-DL",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(?i)\\bWEB[ ._-]?DL\\b"
+      }
+    }
+  ]
+}

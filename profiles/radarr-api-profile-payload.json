@@ -1,0 +1,104 @@
+{
+  "name": "1080p IMAX HDR (English + Hindi)",
+  "upgradeAllowed": true,
+  "cutoff": 7,
+  "minFormatScore": 0,
+  "cutoffFormatScore": 0,
+  "items": [
+    {
+      "quality": { "id": 30, "name": "Remux-1080p" },
+      "items": [],
+      "allowed": true
+    },
+    {
+      "quality": { "id": 7, "name": "Bluray-1080p" },
+      "items": [],
+      "allowed": true
+    },
+    {
+      "quality": { "id": 3, "name": "WEBDL-1080p" },
+      "items": [],
+      "allowed": true
+    },
+    {
+      "quality": { "id": 15, "name": "WEBRip-1080p" },
+      "items": [],
+      "allowed": true
+    },
+    {
+      "quality": { "id": 6, "name": "Bluray-720p" },
+      "items": [],
+      "allowed": true
+    },
+    {
+      "quality": { "id": 5, "name": "WEBDL-720p" },
+      "items": [],
+      "allowed": true
+    },
+    {
+      "quality": { "id": 14, "name": "WEBRip-720p" },
+      "items": [],
+      "allowed": true
+    },
+    {
+      "quality": { "id": 9, "name": "HDTV-1080p" },
+      "items": [],
+      "allowed": false
+    },
+    {
+      "quality": { "id": 4, "name": "HDTV-720p" },
+      "items": [],
+      "allowed": false
+    },
+    {
+      "quality": { "id": 20, "name": "Bluray-480p" },
+      "items": [],
+      "allowed": false
+    },
+    {
+      "quality": { "id": 8, "name": "WEBDL-480p" },
+      "items": [],
+      "allowed": false
+    },
+    {
+      "quality": { "id": 12, "name": "WEBRip-480p" },
+      "items": [],
+      "allowed": false
+    },
+    {
+      "quality": { "id": 1, "name": "SDTV" },
+      "items": [],
+      "allowed": false
+    },
+    {
+      "quality": { "id": 2, "name": "DVD" },
+      "items": [],
+      "allowed": false
+    },
+    {
+      "quality": { "id": 16, "name": "HDTV-2160p" },
+      "items": [],
+      "allowed": false
+    },
+    {
+      "quality": { "id": 18, "name": "WEBDL-2160p" },
+      "items": [],
+      "allowed": false
+    },
+    {
+      "quality": { "id": 17, "name": "WEBRip-2160p" },
+      "items": [],
+      "allowed": false
+    },
+    {
+      "quality": { "id": 19, "name": "Bluray-2160p" },
+      "items": [],
+      "allowed": false
+    },
+    {
+      "quality": { "id": 31, "name": "Remux-2160p" },
+      "items": [],
+      "allowed": false
+    }
+  ]
+}

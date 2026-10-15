@@ -1,0 +1,15 @@
+{
+  "name": "Proper / Repack",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "Proper Repack",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(?i)\\b(PROPER|REPACK|RERIP)\\b"
+      }
+    }
+  ]
+}

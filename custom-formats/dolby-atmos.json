@@ -1,0 +1,15 @@
+{
+  "name": "Dolby Atmos",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "Dolby Atmos",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(?i)\\bATMOS\\b"
+      }
+    }
+  ]
+}
